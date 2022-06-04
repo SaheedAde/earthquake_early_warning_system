@@ -1,0 +1,5 @@
+kik_knet_data/*
+images/*
+*.code-workspace
+
+nestedextract.py
