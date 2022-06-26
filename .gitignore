@@ -3,3 +3,5 @@ kik_knet_data/*
 *.Identifier
 
 nestedextract.py
+
+all_events_streams.pkl
