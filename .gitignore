@@ -3,5 +3,7 @@ kik_knet_data/*
 *.Identifier
 
 nestedextract.py
+nestedextract_doc.txt
 
-all_events_streams.pkl
+train.*.pkl
+test.*.pkl
