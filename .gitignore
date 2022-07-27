@@ -1,9 +1,14 @@
 kik_knet_data/*
 *.code-workspace
 *.Identifier
+*.jsonl
 
 nestedextract.py
 nestedextract_doc.txt
+code.py
+readme.md
+imdb.ipynb
+lstm.ipynb
 
 train.*.pkl
 test.*.pkl
