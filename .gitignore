@@ -1,7 +1,12 @@
 kik_knet_data/*
+
 *.code-workspace
 *.Identifier
 *.jsonl
+*.xml
+*.pyc
+*.hdf5
+*.csv
 
 nestedextract.py
 nestedextract_doc.txt
