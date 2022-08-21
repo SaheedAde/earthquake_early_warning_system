@@ -18,11 +18,7 @@ import datetime
 
 
 def split(word):
-    chars = [char for char in word]
-    charsout = []
-    for c in chars:
-        charsout.append('(' + c + ')')
-    return charsout
+    return ['(' + char + ')' for char in word]
 
 def build_stream(df,h5,line, wftype, filt, freq_min, freq_max):
 

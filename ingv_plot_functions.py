@@ -16,11 +16,7 @@ import matplotlib.ticker as ticker
 sns.set(rc={'figure.figsize':(11.7,8.27)})
 
 def split(word):
-    chars = [char for char in word]
-    charsout = []
-    for c in chars:
-        charsout.append('(' + c + ')')
-    return charsout
+    return ['(' + char + ')' for char in word]
 
 
 def detect_time(time_string):
