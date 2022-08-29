@@ -15,5 +15,4 @@ readme.md
 imdb.ipynb
 lstm.ipynb
 
-train.*.pkl
-test.*.pkl
+*.pkl

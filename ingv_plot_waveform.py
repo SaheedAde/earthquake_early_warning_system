@@ -136,9 +136,9 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
         net = st[0].stats.network
         sta = st[0].stats.station
         if wftype != 'noise':
-                name = str(ev_id) + '.' + net + '.' + sta +'.'+str(P_date_time_obj.date())
+            name = str(ev_id) + '.' + net + '.' + sta +'.'+str(P_date_time_obj.date())
         else:
-                name = str(ev_id)
+            name = str(ev_id)
 
 
         for j in range(irow):
